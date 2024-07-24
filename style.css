@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* sky backround */
+#sky {
+  height: 700px;
+  width: 100%;
+  background-color: lightblue;
+}
+/* sun */
+#sun {
+  display: flex;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: 10px;
+  padding: 100px;
+  position: absolute;
+}
+
+/* grass */
+#grass {
+  border-radius: 0%;
+  padding: 100px;
+  background-color: green;
+}
