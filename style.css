@@ -2,25 +2,66 @@
   box-sizing: border-box;
   margin: 0;
 }
-/* sky backround */
-#sky {
-  height: 700px;
+/* container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
   width: 100%;
   background-color: lightblue;
 }
-/* sun */
-#sun {
-  display: flex;
+
+/* dawn */
+.dawn {
   border-radius: 50%;
-  background-color: yellow;
-  margin: 10px;
-  padding: 100px;
-  position: absolute;
+  background-color: rgb(255, 187, 61);
+  height: 100px;
+  width: 100px;
+  margin: 20px;
 }
 
-/* grass */
-#grass {
-  border-radius: 0%;
-  padding: 100px;
-  background-color: green;
+/* morning */
+.morning {
+  border-radius: 50%;
+  background-color: rgb(250, 214, 12);
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+/* noon */
+.noon {
+  border-radius: 50%;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+/* mlateday */
+.lateday {
+  border-radius: 50%;
+  background-color: rgb(250, 214, 12);
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+/* sunset*/
+.sunset {
+  border-radius: 50%;
+  background-color: rgb(255, 187, 61);
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+/* form style */
+form {
+  border: solid black;
+  width: 500px;
+  margin: 25px;
+  padding: 10px;
+  background-color: antiquewhite;
 }
